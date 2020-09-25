@@ -14,7 +14,7 @@ COMMAND can be abbreviated. For example `t in` and `t i` are equivalent.
 
 COMMAND is one of:
 
-  * archive - Move entries to a hidden sheet (by default named '_[SHEET]') so
+  * archive - Move entries from [SHEET] to a hidden sheet (by default named '_[SHEET]') so
       they're out of the way.
     usage: t archive [--start DATE] [--end DATE] [SHEET]
     -s, --start <date:qs>     Include entries that start on this date or later
